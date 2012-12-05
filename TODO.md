@@ -1,3 +1,6 @@
 - update about.md for this class
 - update favicon
 - update frontbio on index.html
+- comment section in _layouts/base.html
+- comment section in _includes/meta.html
+- fix google analytics in _includes/google
