@@ -195,3 +195,14 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
+#tag-list {
+  font: normal .9em/1.7em Museo Sans, Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  list-style: none;
+  padding: 0;
+}
+
+#tag-list li {
+  padding-right: .7em;
+  display: inline;
+}

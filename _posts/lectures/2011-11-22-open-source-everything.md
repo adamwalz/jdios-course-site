@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Open Source (Almost) Everything
+categories: [lectures]
+tags: [Views]
 ---
 
 {{ page.title }}
