@@ -1,28 +1,28 @@
 ---
-layout: default
-title: JD iOS Programming Class
+layout: base
+title: Home
 ---
-
-<div id="home">
-  <h1>Lectures</h1>
-  <ul class="posts">
-    {% for lecture in site.categories.lectures %}
-      <li><span>{{ lecture.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ lecture.title }}</a></li>
-      {% if lecture.tags != empty %}
-      Tagged as:
-        {% for tag in lecture.tags | sort %}
-          <a href="/tag/#{{tag | downcase | slugify }}" class="tag">{{tag | downcase}}</a>{% unless forloop.last %}, {% endunless %}
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-  <h1>Important Links</h1>
-  <ul class="posts">
-    <li><span>04 Dec 2012</span> &raquo; <a href="important_links/syllabus.html">Syllabus</a></li>
-    <li><span>02 Dec 2012</span> &raquo; <a href="https://developer.apple.com/devcenter/ios/">iOS Dev Center</a></li>
-    <li><span>02 Dec 2012</span> &raquo; <a href="http://gist.github.com/4192238">Style Guide: Header File</a></li>
-    <li><span>02 Dec 2012</span> &raquo; <a href="http://gist.github.com/4192229">Style Guide: Implementation File</a></li>
-  </ul>
-
+<div class="row">
+	<div class="column grid_9">
+		<p id="frontbio">Hi. I'm Andrew. I'm a {% years_since 1984-09-19 %} year old student and web designer/developer from Orem, Utah. I'm currently working on a Masters of Public Administration (MPA) degree in international nonprofit management at Brigham Young University. I'm married and have two beautiful daughters. Life rocks.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="column grid_6">
+		{% for p in site.categories.blog limit:1 %}
+		<h2><a href="{{ p.url }}">Latest blog post</a></h2>
+		<p>{{ p.excerpt }} <a href="{{ p.url }}">Read the whole post&nbsp;&raquo;</a></p>
+		{% endfor %}
+	</div>
+	<div class="column grid_3">
+		<h2><a href="http://twitter.com/JDAdamwalz">@jdAdamWalz</a></h2>
+		<div id="twitter">
+			<div id="loading">
+				<p>Loading tweets&hellip;</p>
+				<img src="/css/images/loader-bar.gif" alt="Loading tweets" />
+			</div>
+		</div>
+		<script src="/script/twitter.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/script/show_tweets.js" type="text/javascript" charset="utf-8"></script>
+	</div>
 </div>

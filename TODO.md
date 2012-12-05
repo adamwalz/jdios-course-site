@@ -1,0 +1,3 @@
+- update about.md for this class
+- update favicon
+- update frontbio on index.html

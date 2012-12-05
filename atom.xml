@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>JD iOS Programming Class</title>
+ <title>Juan Diego iOS Programming</title>
  <link href="http://jd-ios.github.com/atom.xml" rel="self"/>
  <link href="http://jd-ios.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -13,8 +13,8 @@ layout: nil
    <name>Adam Walz</name>
    <email>adamwalz@jdchs.org</email>
  </author>
-
- {% for post in site.posts %}
+ 
+ {% for post in site.categories.blog %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://jd-ios.github.com{{ post.url }}"/>

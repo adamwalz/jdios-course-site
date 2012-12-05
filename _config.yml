@@ -13,7 +13,9 @@ future:      true
 lsi:         false
 pygments:    true
 markdown:    maruku
-permalink:   date
+permalink:   pretty
+extensions:  true
+exclude:     ['Rakefile', 'README.md', 'TODO.md', '_drafts']
 
 maruku:
   use_tex:    false
