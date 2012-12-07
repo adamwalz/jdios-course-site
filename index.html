@@ -4,7 +4,9 @@ title: Home
 ---
 <div class="row">
 	<div class="column grid_9">
-		<p id="frontbio">{% render introduction.markdown %}</p>
+		<p id="frontbio">
+			{% capture introduction %}{% include introduction.markdown %}{% endcapture %}
+			{{ introduction | markdownify }}</p>
 	</div>
 </div>
 <div class="row">
