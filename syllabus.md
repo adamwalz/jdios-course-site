@@ -101,6 +101,7 @@ designated otherwise, each assignment is to be done individually.
 Here is a list of do's and don'ts for what is considered acceptable behavior
 
 <table border="1" cellpadding="5">
+	<caption align="bottom">This list is subject to change with notification</caption>
 	<tr>
 		<th>Do's</th>
 		<th>Dont's</th>
