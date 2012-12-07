@@ -113,7 +113,7 @@ a {
 }
 
 a:hover, a:active {
-	color: #495cd6;
+	color: #3031B2;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -356,7 +356,7 @@ textarea {
 }
 
 #header a:hover {
-	color: #495cd6;
+	color: #3031B2;
 }
 
 /* @end */
@@ -477,7 +477,7 @@ textarea {
 }
 
 .top :hover {
-	color: #495cd6;
+	color: #3031B2;
 }
 
 #archive {
@@ -647,7 +647,7 @@ br.c { clear: both; }
 }
 
 #footer a:hover {
-	color: #495cd6;
+	color: #3031B2;
 }
 
 #footer ul {
