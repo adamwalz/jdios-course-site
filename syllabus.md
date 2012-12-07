@@ -9,10 +9,10 @@ Email: <adamwalz@jdchs.org>
 github: [www.github.com/jd-adam](https://github.com/jd-adam)  
 twitter: [JDAdamwalz](https://twitter.com/JDAdamwalz)
 
-##Course Contact
+###Course Contact
 Website: [jd-ios.github.com](http://jd-ios.github.com)
 
-##Prerequisites
+###Prerequisites
 Prior programming experience at the level of 9610-AP (AP Computer Science A).
 
 ##Course Material
