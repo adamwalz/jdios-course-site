@@ -17,10 +17,11 @@ In this course you will learn how to
 
 #Emphasis - Spring 2013
 This semester students will be implementing an iPhone and iPad app for
-Juan Diego's day planner. Quarter 3 will be spent learning Objective-C and
-implementing a single-user application in iOS 5. The first half of quarter 4
-will then be spent implementing new features of iOS 6 and turning your apps into
-multi-user homework and day planners which will sync with iCloud and/or Google.
+Juan Diego's [day planner](/spring13/project/overview). Quarter 3 will be spent
+learning Objective-C and implementing a single-user application in iOS 5.
+The first half of quarter 4 will then be spent implementing new features of
+iOS 6 and turning your apps into multi-user homework and day planners which will
+sync with iCloud and/or Google.
 
 <table border="1" cellpadding="10">
   <tr>
@@ -30,7 +31,7 @@ multi-user homework and day planners which will sync with iCloud and/or Google.
   <tr>
     <td><ul>
       <li>Objective-C</li>
-      <li>Views</li>
+      <li>Views and MVC</li>
       <li>Gestures</li>
       <li>Storyboarding</li>
       <li>Camera / Alerts</li>

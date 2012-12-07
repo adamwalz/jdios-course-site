@@ -12,8 +12,8 @@ title: Home
 <div class="row">
 	<div class="column grid_6">
 		{% for p in site.categories.blog limit:1 %}
-		<h2><a href="{{ p.url }}">Latest Lecture</a></h2>
-		<p>{{ p.excerpt }} <a href="{{ p.url }}">See in detail&nbsp;&raquo;</a></p>
+		<h2><a href="{{ p.url }}">Most Recent Lecture</a></h2>
+		<p>{{ p.excerpt }} <a href="{{ p.url }}">Watch lecture&nbsp;&raquo;</a></p>
 		{% endfor %}
 	</div>
 	<div class="column grid_3">
