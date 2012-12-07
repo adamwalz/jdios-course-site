@@ -6,7 +6,7 @@ title: 2013 Syllabus
 ##Instruction
 Instructor: Adam Walz  
 Email: adamwalz@jdchs.org  
-github: www.github.com/jd-adam
+github: www.github.com/jd-adam  
 twitter: JDAdamwalz
 
 ##Course Contact
