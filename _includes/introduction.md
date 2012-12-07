@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 This course is an introduction to mobile programming, 
 Objective-C language syntax, memory management, static code analysis,
 custom classes, computer graphics, mobile application lifecycles,
