@@ -5,12 +5,12 @@ title: 2013 Syllabus
 #Spring 2013 Administrative Details
 ##Instruction
 Instructor: Adam Walz  
-Email: adamwalz@jdchs.org  
-github: www.github.com/jd-adam  
-twitter: JDAdamwalz
+Email: <adamwalz@jdchs.org>  
+github: [www.github.com/jd-adam](https://github.com/jd-adam)  
+twitter: [JDAdamwalz](https://twitter.com/JDAdamwalz)
 
 ##Course Contact
-Website: jd-ios.github.com  
+Website: [jd-ios.github.com](http://jd-ios.github.com)
 
 ##Prerequisites
 Prior programming experience at the level of 9610-AP (AP Computer Science A).
