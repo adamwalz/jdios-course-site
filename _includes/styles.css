@@ -330,7 +330,7 @@ textarea {
 #header {
 	width: 100%;
 	height: 180px;
-	background: url(images/square.jpg) repeat 0 30px;
+	background: url(images/spongebob.png) repeat;
 	text-align: right;
 	/*text-rendering: optimizeLegibility;*/
 	position: relative;
