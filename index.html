@@ -12,19 +12,11 @@ title: Home
 <div class="row">
 	<div class="column grid_6">
 		{% for p in site.categories.blog limit:1 %}
-		<h2><a href="{{ p.url }}">Latest blog post</a></h2>
-		<p>{{ p.excerpt }} <a href="{{ p.url }}">Read the whole post&nbsp;&raquo;</a></p>
+		<h2><a href="{{ p.url }}">Latest Lecture</a></h2>
+		<p>{{ p.excerpt }} <a href="{{ p.url }}">See in detail&nbsp;&raquo;</a></p>
 		{% endfor %}
 	</div>
 	<div class="column grid_3">
 		<h2><a href="http://twitter.com/JDAdamwalz">@jdAdamWalz
-		<div id="twitter">
-			<div id="loading">
-				<p>Loading tweets&hellip;</p>
-				<img src="/css/images/loader-bar.gif" alt="Loading tweets" />
-			</div>
-		</div>
-		<script src="/script/twitter.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="/script/show_tweets.js" type="text/javascript" charset="utf-8"></script>
 	</div>
 </div>
