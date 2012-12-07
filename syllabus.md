@@ -34,7 +34,106 @@ At the conclusion of this course, students should be able to:
 	individual programmer and as part of a team.
 5.	Possibly make money by putting your work in this course on the app store.
 
-###About the Instructor
+##What to expect
+-------------------------------
+####Work load
+We will try to tailor the programming workload so that projects can be completed
+during class time. This will allow for students without an iOS programming
+environment (OS X, XCode, etc.) to not be disadvantaged. To this end, this course
+will be "flipped" from a normal lecture course. Lectures will be recorded a posted
+to the course webpage. It will then be your responsibility to watch the lectures
+as homework and come to class ready to implement the ideas from that lecture.
+
+- 2+ hours in class per week (working on programming assignments)
+- 2 hours of lectures per week
+- 1 hour reading documentation per week
+- Additional time in the lab if assignments are not finished in class
+
+####Programming Assignments
+Programming assignments will be due weekly starting in the third week of classes. 
+This course will utilize the source control management (SCM) system git, which is
+integreated into the development environment XCode. All code will be stored on
+the git servers at github.com and this site will be used to turn in all assignments.
+
+After the due date, any code pushed to your online repository will be graded. We
+will talk more about the details of this as well as the course late policy in 
+the first few weeks of class. The syllabus will be updated accordingly at that
+time.
+
+We will also use github for handing out assignments. Each week I will make a
+"pull request" to your repository which includes a partial implementation of that
+weeks assignment. You will then merge that request into your code base and finish
+the implementation.
+
+The nature of a programming course is that not all students may finish each
+assignment. Due to this, I will work hard to ensure that back-to-back assignments
+do not depend on each other. Therefore, not finishing an assignment will not be
+cause to miss subsequent assignments. After the late deadline, I will also post
+my solution, which you can merge into your own repository if desired.
+
+####Grading
+
+<table border="1" cellpadding="5">
+	<tr>
+		<th>Programming Assignments</th>
+		<td>50%</td>
+	</tr>
+	<tr>
+		<th>Quizzes</th>
+		<td>30%</td>
+	</tr>
+	<tr>
+		<th>Participation</th>
+		<td>10%</td>
+	</tr>
+	<tr>
+		<th>Final Exam</th>
+		<td>10%</td>
+	</tr>
+</table>
+
+####Academic Honesty
+Each student in coming into this course at a different level of experience and
+your personal tastes will show through in your projects. Except when explicitly 
+designated otherwise, each assignment is to be done individually.
+
+Here is a list of do's and don'ts for what is considered acceptable behavior
+
+<table border="1" cellpadding="5">
+	<tr>
+		<th>Do's'</th>
+		<th>Dont's'</th>
+	</tr>
+	<tr>
+		<td><ul>
+      <li>Talking at a high level with classmates about your implemenation</li>
+      <li>Using third party libraries and toolkits</li>
+      <li>Using code from the industry standard API collection</li>
+      <li>Copying code from Apple's documentation'</li>
+		</ul>
+		</td>
+		<td><ul>
+      <li>Copying another student's work</li>
+      <li>Programming side-by-side while talking about the solution</li>
+		</ul>
+		</td>
+	</tr>
+</table>
+
+All bullets in the "Do's" header must be documented and sourced if used. Most
+third party libraries and toolkits require that your re-print their licenses. 
+In this course, we will require that each project has a .LICENSE file that 
+contains all of the licenses of anything that you have used, as well as your 
+own license. 
+
+I have been teaching at the University level for the past two years and have
+become good at spotting duplicate solutions. If you have any questions about
+what constitues acceptable behavior please ask.
+
+Academic dishonesty will receive a zero on the current week's assignment and be
+subject to the cheating policy of Juan Diego Catholic High School.
+
+##About the Instructor
 Adam Walz is a former student of Juan Diego Catholic High School and is currently
 enrolled in the masters program at the University of Utah studying Computer
 Science with an emphasis in Artificial Intelligence and Maching Learning. He has
