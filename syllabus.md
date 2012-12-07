@@ -12,6 +12,7 @@ twitter: [JDAdamwalz](https://twitter.com/JDAdamwalz)
 ###Course Contact
 Website: [jd-ios.github.com](http://jd-ios.github.com)
 
+-------------------------------
 ##Course Material
 Introduction to mobile programming, Objective-C language syntax,
 memory management, static code analysis, custom classes, computer graphics,
@@ -101,8 +102,8 @@ Here is a list of do's and don'ts for what is considered acceptable behavior
 
 <table border="1" cellpadding="5">
 	<tr>
-		<th>Do's'</th>
-		<th>Dont's'</th>
+		<th>Do's</th>
+		<th>Dont's</th>
 	</tr>
 	<tr>
 		<td><ul>
@@ -141,6 +142,8 @@ served as a teaching assistant in the School of Computing for the past five
 semesters teaching Introduction to Computer Science I and II, Discrete Mathematics, 
 and Probability and Statistics. Adam has held positions as a software developer
 in iOS mobile development and is excited to relay his experiences on to his students.
+
+-------------------------------
 
 #Syllabus
 <table border="1" cellpadding="10">
