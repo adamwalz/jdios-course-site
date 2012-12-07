@@ -618,7 +618,7 @@ br.c { clear: both; }
 
 #footer-wrapper {
 	width: 100%;
-	background: url(images/square.jpg) repeat 0 -20px;
+	background: url(/images/spongebob.png) repeat 0 -20px;
 	text-align: right;
 	overflow: hidden;
 	border-top: 10px solid #000;
