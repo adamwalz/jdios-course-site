@@ -12,9 +12,6 @@ twitter: [JDAdamwalz](https://twitter.com/JDAdamwalz)
 ###Course Contact
 Website: [jd-ios.github.com](http://jd-ios.github.com)
 
-###Prerequisites
-Prior programming experience at the level of 9610-AP (AP Computer Science A).
-
 ##Course Material
 Introduction to mobile programming, Objective-C language syntax,
 memory management, static code analysis, custom classes, computer graphics,
