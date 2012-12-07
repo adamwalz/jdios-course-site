@@ -42,6 +42,7 @@ multi-user homework and day planners which will sync with iCloud and/or Google.
       <li>Synchronizing with iCloud/Google</li>
       <li>4 weeks of your own apps!</li>
     </ul>
+    </td>
   </tr>
 </table>
 
