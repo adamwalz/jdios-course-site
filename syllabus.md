@@ -37,6 +37,15 @@ At the conclusion of this course, students should be able to:
 	individual programmer and as part of a team.
 5.	Possibly make money by putting your work in this course on the app store.
 
+###About the Instructor
+Adam Walz is a former student of Juan Diego Catholic High School and is currently
+enrolled in the masters program at the University of Utah studying Computer
+Science with an emphasis in Artificial Intelligence and Maching Learning. He has
+served as a teaching assistant in the School of Computing for the past five
+semesters teaching Introduction to Computer Science I and II, Discrete Mathematics, 
+and Probability and Statistics. Adam has held positions as a software developer
+in iOS mobile development and is excited to relay his experiences on to his students.
+
 #Syllabus
 <table border="1" cellpadding="10">
 	<caption>Quarter 3 - iOS 5 and Single-User Applications</caption>
