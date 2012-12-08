@@ -4,7 +4,9 @@ title: Project Overview
 ---
 #Project Overview
 
-###What does your day planner include?
+----------------------------------
+
+##&raquo;What does your day planner include?
 <div class="brainstorm">
   <table>
     <tr>
@@ -25,7 +27,7 @@ title: Project Overview
   </table>
 </div>
 
-###What would a mobile day planner need?
+##&raquo;What would a mobile day planner need?
 
 <div class="brainstorm">
   <table>
