@@ -1,8 +1,8 @@
 ---
 layout: base
-title: Blog
+title: Recent Lectures
 ---
-{% for page in site.categories.blog limit:5 %}
+{% for page in site.categories.lectures limit:5 %}
 <div class="row entry">
 	<div class="post-meta column grid_2">
 		{% include meta.html %}
@@ -14,7 +14,7 @@ title: Blog
 					{{ page.title }}
 				</a>
 			</h2>
-			<p>{{ page.excerpt }} <a href="{{ page.url }}">Read the whole post&nbsp;&raquo;</a></p>
+			<p>{{ page.excerpt }} <a href="{{ page.url }}">Watch Lecture&nbsp;&raquo;</a></p>
 		</div>
 	</div>
 </div>
@@ -22,6 +22,6 @@ title: Blog
 <div class="row">
 	<div class="column grid_2">&nbsp;</div>
 	<div class="column grid_7">
-		<p class="archive-link"><a href="/archive/">Older posts &raquo;</a></p>
+		<p class="archive-link"><a href="/archive/">Older Lectures &raquo;</a></p>
 	</div>
 </div>

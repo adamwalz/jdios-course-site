@@ -11,7 +11,7 @@ title: Home
 </div>
 <div class="row">
 	<div class="column grid_6">
-		{% for p in site.categories.blog limit:1 %}
+		{% for p in site.categories.lectures limit:1 %}
 		<h2><a href="{{ p.url }}">Most Recent Lecture</a></h2>
 		<p>{{ p.excerpt }} <a href="{{ p.url }}">Watch lecture&nbsp;&raquo;</a></p>
 		{% endfor %}
