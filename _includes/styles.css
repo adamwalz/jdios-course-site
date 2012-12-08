@@ -678,6 +678,18 @@ br.c { clear: both; }
 
 /* @end */
 
+/* @group Brainstorming table */
+
+.brainstorm tr {
+	border: 0px;
+}
+
+.brainstorm th{
+	border-bottom: 0px;
+}
+
+/* @end */
+
 /* @group Disqus comments */
 
 .dsq-like-activity {
