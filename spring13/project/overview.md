@@ -62,24 +62,26 @@ title: Project Overview
   <tr>
     <td>
       <ul>
-      <li>Due Date</li>
-      <ul>
-        <li>"On next A-Day"</li>
-        <li>"On Date"</li>
+        <li>Due Date</li>
+        <ul>
+          <li>"On next A-Day"</li>
+          <li>"On Date"</li>
+        </ul>
+        <li>Reminders</li>
+        <li>Push Notifications</li>
       </ul>
-      <li>Reminders</li>
-      <li>Push Notifications</li>
     </td>
     <td colspan="2">
-      <li>Syncing</li>
       <ul>
-        <li>iCloud</li>
-        <li>Google</li>
+        <li>Syncing</li>
+        <ul>
+          <li>iCloud</li>
+          <li>Google</li>
+        </ul>
+        <li><em>iBooks</em> Page flipping</li>
+        <li>Camera to take picure of whiteboard etc.</li>
+        <li>Adv. Projects and Subtasks</li>
       </ul>
-      <li><em>iBooks</em> Page flipping</li>
-      <li>Camera to take picure of whiteboard etc.</li>
-      <li>Adv. Projects and Subtasks</li>
-    </ul>
     </td>
   </tr>
 </table>
