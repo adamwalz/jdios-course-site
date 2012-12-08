@@ -28,31 +28,17 @@ title: Project Overview
 
 <table>
   <tr>
-    <td>Notes for each day
-      <ul>
-      <li>Due Date</li>
-      <ul>
-        <li>"On next A-Day"</li>
-        <li>"On Date"</li>
-      </ul>
-      <li>Reminders</li>
-      <li>Push Notifications</li>
-      <li>Syncing</li>
-      <ul>
-        <li>iCloud</li>
-        <li>Google</li>
-      </ul>
-      <li><em>iBooks</em> Page flipping</li>
-      <li>Camera to take picure of whiteboard etc.</li>
-      <li>Adv. Projects and Subtasks</li>
-    </ul>
-    </td>
-    <td>Letter Day
+    <th>Letter Day</th>
+    <th>Holidays / Events</th>
+    <th>Multi-User Login</th>
+  </tr>
+  <tr>
+    <td>
       <ul>
       <li>Web Service to retrieve data</li>
     </ul>
     </td>
-    <td>Holidays / Events
+    <td>
       <ul>
       <li>Web Service to retrieve data</li>
       <li>Notifications</li>
@@ -62,11 +48,37 @@ title: Project Overview
       </ul>
     </ul>
     </td>
-    <td>Multi-User Login
+    <td>
       <ul>
       <li>LDAP integration</li>
       <li>Quick pin unlocking</li>
       <li>Asynchronous push to database</li>
+    </ul>
+    </td>
+  </tr>
+  <tr>
+    <th colspan="2">Notes for each day</th>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+      <li>Due Date</li>
+      <ul>
+        <li>"On next A-Day"</li>
+        <li>"On Date"</li>
+      </ul>
+      <li>Reminders</li>
+      <li>Push Notifications</li>
+    </td>
+    <td colspan="2">
+      <li>Syncing</li>
+      <ul>
+        <li>iCloud</li>
+        <li>Google</li>
+      </ul>
+      <li><em>iBooks</em> Page flipping</li>
+      <li>Camera to take picure of whiteboard etc.</li>
+      <li>Adv. Projects and Subtasks</li>
     </ul>
     </td>
   </tr>
