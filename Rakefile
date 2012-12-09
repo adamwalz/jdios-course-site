@@ -1,7 +1,7 @@
 # Adapted from Scott Kyle's Rakefile
 # http://github.com/appden/appden.github.com/blob/master/Rakefile
 
-def jekyll(opts = "", path = "$HOME/.rvm/gems/ruby-1.9.3-p327/bin/")
+def jekyll(opts = "", path = "$HOME/.rvm/gems/default/bin/")
   sh "rm -Rf /home/jdios/public_html/*"
   sh path + "jekyll " + opts
 end
