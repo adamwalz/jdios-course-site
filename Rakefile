@@ -3,7 +3,7 @@
 
 def jekyll(opts = "", path = "$HOME/.rvm/gems/ruby-1.9.3-p327/bin/")
   sh "rm -Rf /home/jdios/public_html/*"
-  sh path + "jekyll " + opts + " $HOME/public_html"
+  sh path + "jekyll " + opts
 end
  
 desc "Build site using Jekyll"
