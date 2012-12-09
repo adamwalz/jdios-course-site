@@ -1,0 +1,12 @@
+<div class="page-nav">
+  {% if page.previous %}
+  <span class="page-nav-left">
+    <a rel="prev" href="{{ page.previous.url }}" title="View {{ page.previous.title }}">&larr; Previous Lecture</a>
+  </span>
+  {% endif %}
+  {% if page.next %}
+  <span class="page-nav-right">
+    <a rel="next" href="{{ page.next.url }}" title="View {{ page.next.title }}">Next Lecture &rarr;</a>
+  </span>
+  {% endif %}
+</div>
