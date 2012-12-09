@@ -1,11 +1,16 @@
 <p class="byline">
   <a href="{{ assignment.url }}">Assignment# {{ assignment.assign_num }}</a><br />
-  Due: {{ assignment.due_date }}<br />
+  Due:
+  <span class="date" title="{{ assignment.due_date | date_to_xmlschema }}">
+    <span class="month">{{ assignment.due_date | date: '%B' }}</span>
+    <span class="date">{{ assignment.due_date | date: '%e' }}, </span>
+    <span class="year">{{ assignment.due_date | date: '%Y' }}</span>
+  </span><br />
   Assigned:
   <span class="date" title="{{ assignment.date | date_to_xmlschema }}">
     <span class="month">{{ assignment.date | date: '%b' }}</span>
     <span class="date">{{ assignment.date | date: '%e' }}, </span>
-    <span class="year">{{ assignment.date | date: '%y' }}</span>
+    <span class="year">{{ assignment.date | date: '%Y' }}</span>
   </span>
 </p>
 
