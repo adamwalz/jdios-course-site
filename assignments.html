@@ -2,7 +2,7 @@
 layout: base
 title: Assignments
 ---
-{% for assignment in site.categories.assignments %}
+{% for page in site.categories.assignments %}
   <div class="row entry">
     <div class="post-meta column grid_2">
       {% include meta-assign.html %}
@@ -10,11 +10,11 @@ title: Assignments
     <div class="column grid_7">
       <div class="entry content">
         <h2>
-          <a href="{{ assignment.url }}" title="{{ assignment.title }}"> 
-          {{ assignment.title }}
+          <a href="{{ page.url }}" title="{{ page.title }}"> 
+          {{ page.title }}
           </a>
         </h2>
-        <p>{{ assignment.excerpt }} <a href="{{ assignment.url }}">Read More&nbsp;&raquo;</a></p>
+        <p>{{ page.excerpt }} <a href="{{ page.url }}">Read More&nbsp;&raquo;</a></p>
       </div>
     </div>
   </div>

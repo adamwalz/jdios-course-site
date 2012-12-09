@@ -1,22 +1,22 @@
 <p class="byline">
-  <a href="{{ assignment.url }}">Assignment# {{ assignment.assign_num }}</a><br />
+  <a href="{{ page.url }}">Assignment# {{ page.assign_num }}</a><br />
   Due:
-  <span class="date" title="{{ assignment.due_date | date_to_xmlschema }}">
-    <span class="month">{{ assignment.due_date | date: '%B' }}</span>
-    <span class="date">{{ assignment.due_date | date: '%e' }}, </span>
-    <span class="year">{{ assignment.due_date | date: '%Y' }}</span>
+  <span class="date" title="{{ page.due_date | date_to_xmlschema }}">
+    <span class="month">{{ page.due_date | date: '%B' }}</span>
+    <span class="date">{{ page.due_date | date: '%e' }}, </span>
+    <span class="year">{{ page.due_date | date: '%Y' }}</span>
   </span><br />
   Assigned:
-  <span class="date" title="{{ assignment.date | date_to_xmlschema }}">
-    <span class="month">{{ assignment.date | date: '%b' }}</span>
-    <span class="date">{{ assignment.date | date: '%e' }}, </span>
-    <span class="year">{{ assignment.date | date: '%Y' }}</span>
+  <span class="date" title="{{ page.date | date_to_xmlschema }}">
+    <span class="month">{{ page.date | date: '%b' }}</span>
+    <span class="date">{{ page.date | date: '%e' }}, </span>
+    <span class="year">{{ page.date | date: '%Y' }}</span>
   </span>
 </p>
 
-{% if assignment.tags != empty %}
+{% if page.tags != empty %}
 <p>Tagged as:
-  {% for tag in assignment.tags | sort %}
+  {% for tag in page.tags | sort %}
   <a href="/tag/#{{tag | downcase | slugify }}" class="tag">{{tag | downcase}}</a>{% unless forloop.last %}, {% endunless %}
   {% endfor %}
 </p>
