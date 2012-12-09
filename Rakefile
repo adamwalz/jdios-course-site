@@ -1,24 +1,34 @@
 # Adapted from Scott Kyle's Rakefile
-# http://github.com/appden/appden.github.com/blob/master/Rakefile
+# http://github.com/appden/appden.github.com/blob/master/Rakefile 
 
-def jekyll(opts = "", path = "$HOME/.rvm/gems/default/bin/")
-  sh "rm -Rf /home/jdios/public_html/*"
-  sh path + "jekyll " + opts
-end
- 
 desc "Build site using Jekyll"
-task :build do
-  jekyll
-end
- 
-desc "Serve at localhost:4000"
-task :default do
-  jekyll("--server --auto")
-end
+task :build => :"build:default"
 
-desc "Serve at localhost:4000 sans autogeneration"
-task :hack do
-  jekyll("--server")
+namespace :build do
+    desc "Build site using Jekyll"
+    task :default do
+        jekyll
+    end
+ 
+    desc "Serve at localhost:4000"
+    task :server do
+        jekyll("--server --auto")
+    end
+    
+    desc "Serve at localhost:4000 sans autogeneration"
+    task :hack do
+      jekyll("--server")
+    end
+    
+    desc "Build site with future posts"
+    task :future do
+        jekyll("--future")
+    end
+    
+    def jekyll(opts = "", path = "")
+      sh "rm -Rf _site/*"
+      sh path + "jekyll " + opts
+    end
 end
  
 desc "Deploy to dev"
@@ -26,8 +36,8 @@ task :deploy => :"deploy:dev"
  
 namespace :deploy do
   desc "Deploy to dev"
-  task :dev => :build do
-    rsync "$HOME/Sites/jd-ios/"
+  task :dev => :"build:future" do
+    rsync "jack:/Users/admin/Sites/jd-ios"
   end
   
   desc "Deploy to live"
