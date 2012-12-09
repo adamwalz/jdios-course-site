@@ -18,7 +18,7 @@ excerpt: A listing of all lectures from Juan Diego's iOS Programming course
     <li>
       <span class="faux grid_2">{{ lecture.date | date: '%B %e' }}</span> 
       <span class="faux grid_7">
-        <a href="{{ post.url }}">{{ lecture.title }}</a> <!-- <span class="comment-archive">(<a class="disqus-comment-count" href="http://www.andrewheiss.com{{ post.url }}#disqus_thread">comments</a>)</span> -->
+        <a href="{{ lecture.url }}">{{ lecture.title }}</a> <!-- <span class="comment-archive">(<a class="disqus-comment-count" href="http://www.andrewheiss.com{{ lecture.url }}#disqus_thread">comments</a>)</span> -->
       </span>
     </li>
   {% assign next_year = post_year %}
