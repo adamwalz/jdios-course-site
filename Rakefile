@@ -1,9 +1,9 @@
 # Adapted from Scott Kyle's Rakefile
 # http://github.com/appden/appden.github.com/blob/master/Rakefile
 
-def jekyll(opts = "", path = "/Users/adamwalz/.rvm/gems/ruby-1.9.3-p194/bin/")
-  sh "rm -Rf _site/*"
-  sh path + "jekyll " + opts
+def jekyll(opts = "", path = "$HOME/.rvm/gems/ruby-1.9.3-p327/bin/")
+  sh "rm -Rf /home/jdios/public_html/*"
+  sh path + "jekyll " + opts + " $HOME/public_html"
 end
  
 desc "Build site using Jekyll"
@@ -19,4 +19,26 @@ end
 desc "Serve at localhost:4000 sans autogeneration"
 task :hack do
   jekyll("--server")
+end
+ 
+desc "Deploy to dev"
+task :deploy => :"deploy:dev"
+ 
+namespace :deploy do
+  desc "Deploy to dev"
+  task :dev => :build do
+    rsync "$HOME/Sites/jd-ios/"
+  end
+  
+  desc "Deploy to live"
+  task :live => :build do
+    rsync "jdios:/home/jdios/public_html/"
+  end
+  
+  desc "Deploy to dev and live"
+  task :all => [:dev, :live]
+  
+  def rsync(location)
+    sh "rsync -rtvz --exclude='.DS_Store' --delete _site/ #{location}"
+  end
 end

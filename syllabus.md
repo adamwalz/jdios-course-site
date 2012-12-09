@@ -3,16 +3,17 @@ layout: base
 title: 2013 Syllabus
 ---
 #Spring 2013 Administrative Details
-##Instruction
-Instructor: Adam Walz  
-Email: <adamwalz@jdchs.org>  
-github: [www.github.com/jd-adam](https://github.com/jd-adam)  
-twitter: [JDAdamwalz](https://twitter.com/JDAdamwalz)
 
-###Course Contact
-Website: [jd-ios.github.com](http://jd-ios.github.com)
+##Instruction
+**Instructor**: Adam Walz  
+**Email**: <adamwalz@jdchs.org>  
+**github**: [www.github.com/jd-adam](https://github.com/jd-adam)  
+**twitter**: [JDAdamwalz](https://twitter.com/JDAdamwalz)
+
+**Website**: [jd-ios.github.com](http://jd-ios.github.com)
 
 -------------------------------
+
 ##Course Material
 Introduction to mobile programming, Objective-C language syntax,
 memory management, static code analysis, custom classes, computer graphics,
@@ -38,6 +39,7 @@ At the conclusion of this course, students should be able to:
 
 ##What to expect
 -------------------------------
+
 ####Work load
 We will try to tailor the programming workload so that projects can be completed
 during class time. This will allow for students without an iOS programming
@@ -207,8 +209,7 @@ in iOS mobile development and is excited to relay his experiences on to his stud
     <td>TBA</td>
   </tr>
 </table>
-<br/>
-<br/>
+
 <table border="1" cellpadding="10">
   <caption>Quarter 4 - iOS 6 and Multi-User Applications</caption>
   <tr>

@@ -3,20 +3,20 @@ layout: base
 title: Home
 ---
 <div class="row">
-	<div class="column grid_9">
-		<p id="frontbio">
-			{% capture introduction %}{% include introduction.md %}{% endcapture %}
-			{{ introduction | markdownify }}</p>
-	</div>
+  <div class="column grid_9">
+    <p id="frontbio">
+      {% capture introduction %}{% include introduction.md %}{% endcapture %}
+      {{ introduction | markdownify }}</p>
+  </div>
 </div>
 <div class="row">
-	<div class="column grid_6">
-		{% for p in site.categories.lectures limit:1 %}
-		<h2><a href="{{ p.url }}">Most Recent Lecture</a></h2>
-		<p>{{ p.excerpt }} <a href="{{ p.url }}">Watch lecture&nbsp;&raquo;</a></p>
-		{% endfor %}
-	</div>
-	<div class="column grid_3">
-		<h2><a href="http://twitter.com/JDAdamwalz">@jdAdamWalz</a></h2>
-	</div>
+  <div class="column grid_6">
+    {% for p in site.categories.lectures limit:1 %}
+      <h2><a href="{{ p.url }}">Most Recent Lecture</a></h2>
+      <p>{{ p.excerpt }} <a href="{{ p.url }}">Watch lecture&nbsp;&raquo;</a></p>
+    {% endfor %}
+  </div>
+  <div class="column grid_3">
+    <h2><a href="http://twitter.com/JDAdamwalz">@jdAdamWalz</a></h2>
+  </div>
 </div>

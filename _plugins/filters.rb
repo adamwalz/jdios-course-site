@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 module TextFilter
   def sort_by_key(hash)
     hash.keys.sort
@@ -18,7 +19,7 @@ module TextFilter
   
   def descriptionify(excerpt)
     if excerpt.nil?
-      description = 'Andrew Heiss is a student and web designer and developer from Utah who is working on his MPA in international nonprofit management at BYU.'
+      description = 'This lecture has no descrption.'
     else
       description = excerpt
     end
