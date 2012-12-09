@@ -1,4 +1,4 @@
-![JD Eagle iPhone app](/images/jd-iphone.jpeg)
+![JD Eagle iPhone app](/images/jd-iphone.png)
 
 This course is an introduction to mobile programming, 
 Objective-C language syntax, memory management, static code analysis,
