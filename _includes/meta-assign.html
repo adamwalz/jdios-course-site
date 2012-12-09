@@ -1,0 +1,20 @@
+<p class="byline">
+  <a href="{{ assignment.url }}">Assignment# {{ assignment.assign_num }}</a><br />
+  Due: {{ assignment.due_date }}<br />
+  Assigned:
+  <span class="date" title="{{ assignment.date | date_to_xmlschema }}">
+    <span class="month">{{ assignment.date | date: '%b' }}</span>
+    <span class="date">{{ assignment.date | date: '%e' }}, </span>
+    <span class="year">{{ assignment.date | date: '%y' }}</span>
+  </span>
+</p>
+
+{% if assignment.tags != empty %}
+<p>Tagged as:
+  {% for tag in assignment.tags | sort %}
+  <a href="/tag/#{{tag | downcase | slugify }}" class="tag">{{tag | downcase}}</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+</p>
+{% endif %}
+
+<!-- <p><a class="disqus-comment-count" href="http://www.andrewheiss.com{{ page.url }}#disqus_thread">comments</a></p> -->
