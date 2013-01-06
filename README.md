@@ -1,4 +1,4 @@
-jd-ios
+jdios
 ======
 
-Github Pages
+Course Website

@@ -10,7 +10,7 @@ title: 2013 Syllabus
 **github**: [www.github.com/jd-adam](https://github.com/jd-adam)  
 **twitter**: [JDAdamwalz](https://twitter.com/JDAdamwalz)
 
-**Website**: [jd-ios.github.com](http://jd-ios.github.com)
+**Website**: [jdios.jdchs.org](http://jdios.jdchs.org)
 
 -------------------------------
 
@@ -75,7 +75,7 @@ do not depend on each other. Therefore, not finishing an assignment will not be
 cause to miss subsequent assignments. After the late deadline, I will also post
 my solution, which you can merge into your own repository if desired.
 
-####Grading
+####Semester Grading
 
 <table border="1" cellpadding="5">
   <tr>
@@ -84,15 +84,15 @@ my solution, which you can merge into your own repository if desired.
   </tr>
   <tr>
     <th>Quizzes</th>
-    <td>30%</td>
+    <td>20%</td>
   </tr>
   <tr>
-    <th>Participation</th>
+    <th>Tests</th>
     <td>10%</td>
   </tr>
   <tr>
     <th>Final Exam</th>
-    <td>10%</td>
+    <td>20%</td>
   </tr>
 </table>
 

@@ -1,6 +1,6 @@
 RewriteEngine On
  
-# Map http://jd-ios.github.com to /jekyll.
+# Map http://jdios.jdchs.org to /jekyll.
 RewriteRule ^$ /jekyll/ [L]
  
 # Map http://d-ios.github.com/x to /jekyll/x unless there is a x in the web root.
@@ -13,7 +13,7 @@ RewriteRule ^(.*)$ /jekyll/$1
 # Add trailing slash to directories within jekyll
 # This does not expose the internal URL.
 RewriteCond %{SCRIPT_FILENAME} -d
-RewriteRule ^jekyll/(.*[^/])$ http://jd-ios.github.com/$1/ [R=301]
+RewriteRule ^jekyll/(.*[^/])$ http://jdios.jdchs.org/$1/ [R=301]
 
 # Not for NFSN 
 # Add trailing slash to directories without them so DirectoryIndex works.
@@ -25,5 +25,5 @@ RewriteRule ^jekyll/(.*[^/])$ http://jd-ios.github.com/$1/ [R=301]
 # Also not for NFSN
 # Disable auto-adding slashes to directories without them, since this happens
 # after mod_rewrite and exposes the rewritten internal URL, e.g. turning
-# http://jd-ios.github.com/about into http://jd-ios.github.com/jekyll/about.
+# http://jdios.jdchs.org/about into http://jdios.jdchs.org/jekyll/about.
 # DirectorySlash off

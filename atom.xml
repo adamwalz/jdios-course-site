@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Juan Diego iOS Programming</title>
- <link href="http://jd-ios.github.com/atom.xml" rel="self"/>
- <link href="http://jd-ios.github.com/"/>
+ <link href="http://jdios.jdchs.org/atom.xml" rel="self"/>
+ <link href="http://jdios.jdchs.org/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://jd-ios.github.com/</id>
+ <id>http://jdios.jdchs.org/</id>
  <author>
    <name>Adam Walz</name>
    <email>adamwalz@jdchs.org</email>
@@ -17,9 +17,9 @@ layout: nil
  {% for post in site.categories.blog %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://jd-ios.github.com{{ post.url }}"/>
+   <link href="http://jdios.jdchs.org{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://jd-ios.github.com{{ post.id }}</id>
+   <id>http://jdios.jdchs.org{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
