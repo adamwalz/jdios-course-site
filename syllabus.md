@@ -12,6 +12,8 @@ title: 2013 Syllabus
 
 **Website**: [jdios.jdchs.org](http://jdios.jdchs.org)
 
+**Meeting Times**: Wednesday 1:40-2:40, Friday 3:00-4:00 (both days are required)
+
 -------------------------------
 
 ##Course Material
@@ -48,10 +50,9 @@ will be "flipped" from a normal lecture course. Lectures will be recorded a post
 to the course webpage. It will then be your responsibility to watch the lectures
 as homework and come to class ready to implement the ideas from that lecture.
 
-- 2+ hours in class per week (working on programming assignments)
+- 2[^1] hours in class per week (working on programming assignments)
 - 2 hours of lectures per week
 - 1 hour reading documentation per week
-- Additional time in the lab if assignments are not finished in class
 
 ####Programming Assignments
 Programming assignments will be due weekly starting in the third week of classes. 
@@ -75,6 +76,21 @@ do not depend on each other. Therefore, not finishing an assignment will not be
 cause to miss subsequent assignments. After the late deadline, I will also post
 my solution, which you can merge into your own repository if desired.
 
+####Video Lectures
+Each week, two video lectures will be released on the class website. These lectures
+will cover iOS, Objective-C, and software development concepts. Most will include 
+slides and a coding session to make the concepts more concrete. They must be watched
+before the next class persiod. The period for which they are due will be indicated on
+the course website.
+
+####Quizzes
+At the beginning of each class period, a quiz will be administered which covers the
+video lectures assinged. This quiz will likely be simple and only assess whether the
+lectures were watched or not. Having said that, the quizzes are worht a substantial
+percentage of your course grade. This is necessary becuase the concepts cannot be
+learned in such a short period of time by just hacking. The quizzes assess theoretical
+knowledge, while the projects assess practical knowledge.
+
 ####Semester Grading
 
 <table border="1" cellpadding="5">
@@ -95,6 +111,8 @@ my solution, which you can merge into your own repository if desired.
     <td>20%</td>
   </tr>
 </table>
+
+For each quarter, this breaks down to Programming Assignments being worth 62.5%, Quizzes worth 25%, and Tests worth 12.5%. 
 
 ####Academic Honesty
 Each student in coming into this course at a different level of experience and
@@ -137,7 +155,13 @@ and have become good at spotting duplicate solutions. If you have any questions
 about what constitutes acceptable behavior please ask.
 
 Academic dishonesty will receive a zero on the current week's assignment and be
-subject to the cheating policy of Juan Diego Catholic High School.
+required to re-do the assigned work.
+
+####Attendance
+1. This zero-hour course requires two (2) hours[^2] of in-class work per week and meets each week on Monday and Wednesday. Class will be in session from 1:40 to 2:40 on Wednesdays and 3:00 to 4:00 on Fridays.
+2. Attendance will be taken on A and C days. Any attendance on days between A and C days will be entered on the following A or C day.
+3. The school policy of seven (7) or more Unexcused absences leading to an F grade for the quarter will be followed.
+
 
 ##About the Instructor
 Adam Walz is a former student of Juan Diego Catholic High School and is currently
@@ -171,7 +195,7 @@ in iOS mobile development and is excited to relay his experiences on to his stud
   <tr>
     <td>3</td>
     <td>Views and Gestures</td>
-    <td>TBA</td>
+    <td><a href="/assignments/2013/01/21/assign-1">Real World MVC</a></td>
   </tr>
   <tr>
     <td>4</td>
@@ -239,3 +263,7 @@ in iOS mobile development and is excited to relay his experiences on to his stud
   </tr>
 
 </table>
+
+
+[^1]: If more time is required for assignments outside of the two hours of allotted class time, the instructor will be available for a short time after class ends. Otherwise, students should find a time in the lab either before school, after school, or during lunch to finish programming assignments.
+[^2]: Same as 1
