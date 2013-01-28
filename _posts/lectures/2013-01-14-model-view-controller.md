@@ -1,7 +1,7 @@
 ---
 layout: lecture
 title: Model, View, Controller
-excerpt: Model, View Controller
+excerpt: Each iOS applicaiton is made up of many objects sending messages to one another. Model View Controller is a classic way of organizing your projects into three camps. In this lecture you'll be introduced to each camp and see how the components communicate with each other.
 category: lectures
 tags:
 - mvc

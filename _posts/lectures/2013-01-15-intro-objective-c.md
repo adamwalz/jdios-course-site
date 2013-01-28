@@ -1,7 +1,7 @@
 ---
 layout: lecture
 title: Intro to Objective-C - Part 1
-excerpt: Intro to Objective-C - Part 1
+excerpt: This lecture should give you the appropriate background material for the course. We being iwht a look at some code in Objective-C without the need for Xcode. This is all about syntax. 
 category: lectures
 tags:
 - objective c
