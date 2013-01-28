@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/adamwalz/Documents/Work/Teaching/JD/2013/spring_ios/github/site",
+      "file_exclude_patterns": ["*.css", "*.ico", "*.png", "*.htaccess", "*.xml"],
+      "folder_exclude_patterns": ["css", "_cache", "_drafts", "_plugins", "_site", "images", "rss", "script"]
+		}
+	]
+}
